@@ -15,11 +15,13 @@ We examined four encoder-decoder DL architectures:
  - an innovative Hybrid Unidirectional-Bidirectional LSTM
 
 **Hybrid Unidirectional-Bidirectional LSTM**
+
 This novel architectural paradigm is the product of utilizing both bidirectional and unidirectional LSTMs instead of just one of the two. The input layer is a bidirectional LSTM. A unidirectional LSTM layer is then stacked on top of the bidirectional one. The bidirectional layer will provide one hidden state output for each time-step in 3-dimensional
 form which is then utilized as input by the unidirectional layer. The core idea behind this architectural choice is the fact that by introducing heterogeneous layers the model will be able to exploit the temporal correlations present in the various time-series in a more sophisticated way when compared to the rest of the models. Furthermore the fact that
 multiple layers are being utilized allows the features of the input sequence to be represented in a more robust way. The same design logic is implemented in the decoder part in order to mirror the encoder morphology. Instead of the basic LSTM model used in the previously explored decoders, the Hybrid model utilizes a bidirectional layer stacked on top of a unidirectional layer. This structural symmetry enables the decoder to properly reconstruct the underlying temporal motifs of the input sequence.
 
 **Dataset description**
+
 We conducted experiments using a TCP trace data set with a 5 minutes time-step. We predict the number of requests, the transmitted data and the duration of the sessions with multi-steps in a range of one to five steps, which corresponds to a time window that spans 25 minutes in total.
 
 ## Cite Us
