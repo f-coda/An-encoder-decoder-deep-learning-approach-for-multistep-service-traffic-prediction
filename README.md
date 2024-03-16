@@ -14,6 +14,8 @@ We examined four encoder-decoder DL architectures:
  - Bidirectional LSTM  
  - an innovative Hybrid Unidirectional-Bidirectional LSTM
 
+![encoder-decoder](https://github.com/f-coda/Encoder_Decoder-DL/assets/23379126/ce566c88-8191-41cd-94f8-4de9c21fbd04)
+
 **Hybrid Unidirectional-Bidirectional LSTM**
 
 This novel architectural paradigm is the product of utilizing both bidirectional and unidirectional LSTMs instead of just one of the two. The input layer is a bidirectional LSTM. A unidirectional LSTM layer is then stacked on top of the bidirectional one. The bidirectional layer will provide one hidden state output for each time-step in 3-dimensional
