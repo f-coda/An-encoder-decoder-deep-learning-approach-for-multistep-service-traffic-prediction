@@ -26,7 +26,7 @@ We conducted experiments using a TCP trace data set with a 5 minutes time-step. 
 
 If you use the above code for your research, please cite our papers:
 
-- [An encoder-decoder deep learning approach for multistep service traffic prediction] (https://ieeexplore.ieee.org/document/9564320)
+- [An encoder-decoder deep learning approach for multistep service traffic prediction](https://ieeexplore.ieee.org/document/9564320)
      
       @inproceedings{theodoropoulos2021encoder,
       title={An encoder-decoder deep learning approach for multistep service traffic prediction},
