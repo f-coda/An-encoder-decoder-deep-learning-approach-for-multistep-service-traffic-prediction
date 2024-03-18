@@ -24,7 +24,7 @@ multiple layers are being utilized allows the features of the input sequence to 
 
 **Dataset description**
 
-We conducted experiments using a TCP trace data set with a 5 minutes time-step. We predict the number of requests, the transmitted data and the duration of the sessions with multi-steps in a range of one to five steps, which corresponds to a time window that spans 25 minutes in total.
+We conducted experiments using a [TCP trace data set](https://ita.ee.lbl.gov/html/contrib/LBL-CONN-7.html) with a 5 minutes time-step. We predict the number of requests, the transmitted data and the duration of the sessions with multi-steps in a range of one to five steps, which corresponds to a time window that spans 25 minutes in total.
 
 ## Cite Us
 
